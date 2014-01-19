@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/clearing"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="@string/clearItems"
+        android:includeFontPadding="false"/>
+
+	<Button
+	    android:id="@+id/confirm"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/clearing"
+	    android:layout_below="@+id/clearing"
+	    android:text="@string/confirm" />
+	
+	<Button
+	    android:id="@+id/cancel"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:layout_alignRight="@+id/clearing"
+	    android:layout_below="@+id/clearing"
+	    android:text="@string/cancel" />
+
+</RelativeLayout>
